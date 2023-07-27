@@ -95,74 +95,74 @@ MP_LINKER_FILE_OPTION=,--script=p24F16KA101.gld
 # ------------------------------------------------------------------------------------
 # Rules for buildStep: compile
 ifeq ($(TYPE_IMAGE), DEBUG_RUN)
-${OBJECTDIR}/ADC.o: ADC.c  .generated_files/flags/default/a600d46d1c36dc1d8512b697069468e3f56bebca .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/ADC.o: ADC.c  .generated_files/flags/default/c359998d80f6fcfcc01f4a030b9e162a6535c986 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/ADC.o.d 
 	@${RM} ${OBJECTDIR}/ADC.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ADC.c  -o ${OBJECTDIR}/ADC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/ADC.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/ChangeClk.o: ChangeClk.c  .generated_files/flags/default/ccaa9ef6cf47e3013ea85095758158fb07ed0445 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/ChangeClk.o: ChangeClk.c  .generated_files/flags/default/5beeba63aeb172ab8eeee18fc8d9c1c2bbd53426 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/ChangeClk.o.d 
 	@${RM} ${OBJECTDIR}/ChangeClk.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ChangeClk.c  -o ${OBJECTDIR}/ChangeClk.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/ChangeClk.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/IOs.o: IOs.c  .generated_files/flags/default/ca7088bb7ba89d7f546abcd539529fa3cb73e5ad .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/IOs.o: IOs.c  .generated_files/flags/default/612f9aa114d0e1cf9f63c83c63d9087248b91e2f .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/IOs.o.d 
 	@${RM} ${OBJECTDIR}/IOs.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  IOs.c  -o ${OBJECTDIR}/IOs.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/IOs.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/Multimeter.o: Multimeter.c  .generated_files/flags/default/a31d493f47683e919a4b10b05abcddffe6e540b3 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/Multimeter.o: Multimeter.c  .generated_files/flags/default/a99507a8c0e58e6b74c864524792ad2375479db7 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/Multimeter.o.d 
 	@${RM} ${OBJECTDIR}/Multimeter.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  Multimeter.c  -o ${OBJECTDIR}/Multimeter.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/Multimeter.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/UART2.o: UART2.c  .generated_files/flags/default/8dfd4e928eb6b155c173b470ee95be41e456c8c1 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/UART2.o: UART2.c  .generated_files/flags/default/85754b7fe7bf3eed1396b2adba8b8f1b8a300533 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/UART2.o.d 
 	@${RM} ${OBJECTDIR}/UART2.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  UART2.c  -o ${OBJECTDIR}/UART2.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/UART2.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/190771e355e0b38b8b60adf3725194820b910d7b .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/23720f228e850b7a079bd5df02be0815ec534d0d .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  main.c  -o ${OBJECTDIR}/main.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/main.o.d"      -g -D__DEBUG     -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
 else
-${OBJECTDIR}/ADC.o: ADC.c  .generated_files/flags/default/16dda2565e132b1a342d577e7f48c94d63031916 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/ADC.o: ADC.c  .generated_files/flags/default/8099359500e4ec7599ae56c450aacdfd8c7f18f1 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/ADC.o.d 
 	@${RM} ${OBJECTDIR}/ADC.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ADC.c  -o ${OBJECTDIR}/ADC.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/ADC.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/ChangeClk.o: ChangeClk.c  .generated_files/flags/default/b11913a6e18be571fd05d21f6870811883550408 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/ChangeClk.o: ChangeClk.c  .generated_files/flags/default/5b32bb81581272c7ae48a3e0fdaf9905fca76fd5 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/ChangeClk.o.d 
 	@${RM} ${OBJECTDIR}/ChangeClk.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  ChangeClk.c  -o ${OBJECTDIR}/ChangeClk.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/ChangeClk.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/IOs.o: IOs.c  .generated_files/flags/default/ae6408879d3a69ae4365734391c81b44cc3c192c .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/IOs.o: IOs.c  .generated_files/flags/default/c8dc4638bc424fd0a79a3f84d619fb4d364d384a .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/IOs.o.d 
 	@${RM} ${OBJECTDIR}/IOs.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  IOs.c  -o ${OBJECTDIR}/IOs.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/IOs.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/Multimeter.o: Multimeter.c  .generated_files/flags/default/ce896903bb7c4dc267e2f88d71dd33746dee0128 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/Multimeter.o: Multimeter.c  .generated_files/flags/default/91e17f865f0f80eda182f201e583f9de7d0d0639 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/Multimeter.o.d 
 	@${RM} ${OBJECTDIR}/Multimeter.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  Multimeter.c  -o ${OBJECTDIR}/Multimeter.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/Multimeter.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/UART2.o: UART2.c  .generated_files/flags/default/1a0ef9cf8565c58d773aeed7a8e0f8d0aac5337e .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/UART2.o: UART2.c  .generated_files/flags/default/39e232734aba39d3306ffbcecd7733697ac6d68b .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/UART2.o.d 
 	@${RM} ${OBJECTDIR}/UART2.o 
 	${MP_CC} $(MP_EXTRA_CC_PRE)  UART2.c  -o ${OBJECTDIR}/UART2.o  -c -mcpu=$(MP_PROCESSOR_OPTION)  -MP -MMD -MF "${OBJECTDIR}/UART2.o.d"        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"
 	
-${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/591494b7ee9c6f4cb225f3f24de524e075dc2c48 .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
+${OBJECTDIR}/main.o: main.c  .generated_files/flags/default/55fc1ddb026336d9deca9c3832f693e2afa1c18b .generated_files/flags/default/ffef184aa7097e51f7170ac5d226b5c1b04ceccc
 	@${MKDIR} "${OBJECTDIR}" 
 	@${RM} ${OBJECTDIR}/main.o.d 
 	@${RM} ${OBJECTDIR}/main.o 
@@ -209,3 +209,11 @@ endif
 .clean-conf: ${CLEAN_SUBPROJECTS}
 	${RM} -r ${OBJECTDIR}
 	${RM} -r ${DISTDIR}
+
+# Enable dependency checking
+.dep.inc: .depcheck-impl
+
+DEPFILES=$(shell mplabwildcard ${POSSIBLE_DEPFILES})
+ifneq (${DEPFILES},)
+include ${DEPFILES}
+endif

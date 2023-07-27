@@ -1,1 +1,0 @@
- -c -mcpu=$(MP_PROCESSOR_OPTION)        -g -omf=elf -DXPRJ_default=$(CND_CONF)    $(COMPARISON_BUILD)  -O0 -msmart-io=1 -Wall -msfr-warn=off    -mdfp="${DFP_DIR}/xc16"C:\Ammar\University\Interviews\Projects\ENCM 511\AppProject2\AppProject2.X\ChangeClk.c
